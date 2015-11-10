@@ -144,7 +144,6 @@ print('Training Decision Tree Regressor..')
 # Leave one out error has been considered as an unbiased estimator of the
 # generalisation error ###
 super_predictions = []
-super_predictions2 = []
 for i in range(0, len(surgeValues)):
     training_data_X = X_train[:i] + X_train[i + 1:]
     label_data_Y = y_train[:i] + y_train[i + 1:]
@@ -158,8 +157,7 @@ for i in range(0, len(surgeValues)):
             ny_train.append(y_train[j])
 
     clf = tree.DecisionTreeRegressor(max_depth=30).fit(NX_train, ny_train)
-    super_predictions.append(clf.predict(X_train[i])[0])
-
+    super_predictions.append(clf.predict([X_train[i]])[0])
 
 r, p_value = stats.pearsonr(surgeValues, super_predictions)
 print('Decision Tree Supervised Learning Regressor, r :' + str(r))
