@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import twitter
 from twitter_accounts import accounts
 
