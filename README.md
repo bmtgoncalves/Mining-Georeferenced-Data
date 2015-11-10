@@ -3,6 +3,6 @@ A hands on guide to collecting, analysing and mining geo-referenced data from lo
 
 This code can be better understood following the slides below from the original presentation at the PyData NYC conference.
 
-Part 1 Slides by Bruno Gonçalves: [coming soon] 
+Part 1 Slides by Bruno Gonçalves: http://www.slideshare.net/bgoncalves/mining-georeferenced-data 
 
 Part 2 Slides by Anastasios Noulas: http://www.slideshare.net/tnoulas/mining-georeferenced-data-locationbased-services-and-the-sharing-economy
