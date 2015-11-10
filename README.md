@@ -1,5 +1,5 @@
-# Mining-Georeferenced-Data
-A hands on guide to collecting, analysing and mining geo-referenced data from location based services (e.g. Foursquare, Twitter) and the Sharing Economy (Uber, Airbnb etc.). 
+# Mining Georeferenced Data: Location-based Services and the Sharing Economy
+A hands on guide on using Python to collect, analyse and mine geo-referenced data from location based services (e.g. Foursquare, Twitter) and the Sharing Economy (Uber, Airbnb etc.). 
 
 This code can be better understood following the slides below from the original presentation at the PyData NYC conference.
 
