@@ -20,5 +20,5 @@ Part 2 Slides by Anastasios Noulas: http://www.slideshare.net/tnoulas/mining-geo
 * Parse webpages [requests](http://docs.python-requests.org/en/latest/), [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/) and extract Checkin Information
 * Place Networks [networkx](https://networkx.github.io/)
 * Place Centrality
-* Taxi Journeys (Basemap)
+* Taxi Journeys [Basemap](http://matplotlib.org/basemap/)
 * Querying Uber API
